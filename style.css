@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: bold;
+        font-size: 20px;
+        font-optical-sizing: auto;
+}
+ 
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #36c31a !important;
+}
+#navbarSupportedContent a{
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #36c31a;
+}
+
+#navbarSupportedContent button{
+    background-color: #36c31a;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/****Home****/
+
+#Home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://t4.ftcdn.net/jpg/04/74/16/53/360_F_474165352_CyjkL05073wEIX9fAcvnqExQFwCg1Orc.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 50px;
+    color: antiquewhite;
+    letter-spacing: 3px;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 
+}
+
+#home p{
+    font-size: 18px;
+    color: aliceblue;
+    font-display: center;
+    margin-left: 50;
+    margin-right: 50;
+}
+#home .input-group{
+    width: 60%;
+    height: 20px;
+}
+
+.signin{
+    background: #36c31a !important;
+    color: antiquewhite;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+
+#About{
+    color: aliceblue;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("https://images.unsplash.com/photo-1553267574-277716d448fb?q=80&w=1778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+
+#About p{
+    color: white;
+}
+#About h1{
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 50px;
+}
+#Product{
+    color: aliceblue;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url("https://img.freepik.com/premium-photo/black-wooden-wall-with-texture-background_389675-34.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#Product img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                 inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px;
+    
+}
+.header{
+    margin: 0;
+    padding: 0;
+    /* Set the height of the header to 100% of the viewport height */
+    height: 100vh;
+  }
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    text-shadow: #36c31a;
+}
+
+.para {
+    background-image: url("https://img.freepik.com/premium-photo/black-wooden-wall-with-texture-background_389675-34.jpg");
+    text-shadow: #36c31a;
+    padding: 1rem;
+    background-color: rgb(242, 236, 236);
+    color: #07ab0c;
+}
+
+#Price{
+    color: aliceblue;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url("https://img.freepik.com/premium-photo/black-wooden-wall-with-texture-background_389675-34.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#Product img{
+    width: 200px;
+    height: 200px;
+}
+
+
+#contact {
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url("https://img.pikbest.com/wp/202344/herbs-spices-assorted-spice-powders-and-set-against-vintage-textured-background_9924783.jpg!sw800");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#contact img{
+    height: 100;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.8);
+    margin-top: center;
+    color: #e5e5e5;
+    padding: 3px;
+}
+
+.h1 {
+    background-color: #1d221c;
+    text-decoration: solid;
+    text-align: top;
+}
